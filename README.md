@@ -78,10 +78,10 @@ The visual encoder places similar standalone images nearby one another on a late
 ![Descriptive Alt Text](./original-diagram.jpg)
 
 ### New Diagram (AI assisted w simple errors. Photoshop fixes? I need to learn how)
-There's no "switch option" in the game
-No Values aren't "action values", they are action probabilities
-Step 3 is retrieve only
-Step 4 happens at the same time as step 2
-Step 5 KNN between the single query and the top K keys
+There's no "switch option" in the game  
+No Values aren't "action values", they are action probabilities  
+Step 3 is retrieve only  
+Step 4 happens at the same time as step 2  
+Step 5 KNN between the single query and the top K keys  
 
 ![Descriptive Alt Text](./new-diagram.png)
