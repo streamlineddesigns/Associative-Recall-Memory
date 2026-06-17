@@ -78,6 +78,8 @@ A natural next question for me was: how can I get more acquainted with the atten
 
 The visual encoder places similar standalone images nearby one another on a latent manifold. The attention like mechanism learns meaningful projections that push dissimilar image:action pairs less nearby one another and similar image:action pairs closer. Which is done via the query encoding projections. Memory and attention yields associative memory recall of image:actions.
 
+Unlike NEC, which keeps keys and queries in flux through a jointly trained encoder, slowly invalidating its own memories as it learns, this setup freezes the visual encoder entirely. Decoupling perception from action mapping so the keys stay put and the query encoder is free to learn what to attend to without ever disturbing what's already remembered.
+
 ### Original Diagram (clearly the cooler image)
 ![Descriptive Alt Text](./original-diagram.jpg)
 
