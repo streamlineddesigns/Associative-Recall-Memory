@@ -1,5 +1,7 @@
 # Associative recall memory: a framework that contains a visual encoder, an attention mechanism, and memory retrieval!
 
+# Part 2
+
 
 ## Backstory
 
