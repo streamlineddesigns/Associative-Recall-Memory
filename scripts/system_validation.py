@@ -30,7 +30,7 @@ import chromadb
 # Paths MUST match where you saved everything previously
 ENCODER_PATH = "./saved_cnne_model_dir"
 VALUE_ENC_PATH = "./saved_mnist_classifier_dir"
-TRAINED_CNN_PATH = "./trained_residual_cnn_with_VE_guidance"
+TRAINED_CNN_PATH = "./saved_residual_cnn_with_VE_guidance"
 
 CHROMA_DB_PATH = "./chroma_db_mnist"
 COLLECTION_NAME = "mnist_sparse_collection"

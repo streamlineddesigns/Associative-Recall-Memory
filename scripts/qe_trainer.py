@@ -38,7 +38,7 @@ COLLECTION_NAME = "mnist_sparse_collection"
 ENCODER_PATH = "./saved_cnne_model_dir"
 VALUE_ENC_PATH = "./saved_mnist_classifier_dir" 
 
-SAVE_PATH_RESIDUAL_CNN = "./trained_residual_cnn_with_VE_guidance"
+SAVE_PATH_RESIDUAL_CNN = "./saved_residual_cnn_with_VE_guidance"
 EMBEDDING_DIM = 392 # Must match your Frozen Encoder output size
 NUM_NEIGHBORS = 5       
 BATCH_SIZE = 64
