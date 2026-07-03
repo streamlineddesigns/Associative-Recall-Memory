@@ -9,19 +9,19 @@ pip install tensorflow pandas numpy scikit-learn matplotlib
 #activate python venv
 source tf_env/bin/activate
 
-#train ae
+#[K Branch] train ae
 python train_ae_cnn.py
 
-#train ve mlp predictions
+#[V Branch] train ve mlp predictions
 python train_ve_mlp_via_ae.py
 
-#populate vd via ae
+#[H Memory] populate vd via ae
 python vd_populate_via_ae.py
 
 #inspect vd
 python inspect_vd.py
 
-#run qe trainer
+#[Q Branch] run qe trainer
 python qe_trainer.py
 
 #validation
