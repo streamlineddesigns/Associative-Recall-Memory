@@ -1,13 +1,13 @@
 #create virtual enviornment
 python3 -m venv tf_env
 
+#activate python venv
+source tf_env/bin/activate
+
 #install dependencies
 pip install --upgrade pip
 pip install chromadb==0.4.22 posthog==2.4.0 pysqlite3-binary
 pip install tensorflow pandas numpy scikit-learn matplotlib
-
-#activate python venv
-source tf_env/bin/activate
 
 #[K Branch] train ae
 python train_ae_cnn.py
